@@ -128,14 +128,46 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media screen and (max-width:1165px){
 
- @media screen and (max-width:768px){
+    .container{
+        max-width: 100%;
+    }
 
+ }
+
+ @media screen and (max-width:720px){
+
+    .row{
+        display: block;
+    }
+
+    .col{
+        margin: 70px auto;
+        min-width: 100%;
+    }
+
+    .title, .text{
+        max-width: 100%;
+    }
 
  }
 
 
  @media screen and (max-width:480px){
 
-    
+    .why-us{
+        background-color: #222222;
+    }
+
+    body{
+        background: linear-gradient(
+            to bottom,
+            #232946 0%,
+            #232946 50%,
+            #222222 50%,
+            #222222 100%
+               );
+    }
+
  }
